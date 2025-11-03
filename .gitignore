@@ -1,0 +1,35 @@
+# Build artifacts  
+bin/  
+obj/  
+  
+# Visual Studio settings  
+.vs/  
+*.user  
+*.suo  
+*.userosscache  
+*.sln.docstates  
+  
+# Compiled binaries  
+*.dll  
+*.exe  
+*.pdb  
+  
+# Packages  
+*.nupkg  
+  
+# Logs  
+*.log  
+  
+# Archives  
+*.zip  
+*.gz  
+  
+# Local configuration for Azure Functions  
+local.settings.json  
+  
+# Node modules (if applicable)  
+node_modules/  
+  
+# Operating system files  
+.DS_Store  
+Thumbs.db 
