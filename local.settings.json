@@ -1,0 +1,16 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
+    "ALEX_ACS_CONNECTION_STRING": "endpoint=https://your-acs-resource.communication.azure.com/;accesskey=your-access-key",
+    "ALEX_WABA_NUMBER": "+972501234567",
+    "ALEX_KEYVAULT_URL": "https://your-keyvault.vault.azure.net/",
+    "APPLICATIONINSIGHTS_CONNECTION_STRING": "InstrumentationKey=your-key;IngestionEndpoint=https://westeurope-1.in.applicationinsights.azure.com/"
+  },
+  "Host": {
+    "LocalHttpPort": 7071,
+    "CORS": "*",
+    "CORSCredentials": false
+  }
+}
